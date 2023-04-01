@@ -1,6 +1,4 @@
-# AnarchyDB
-
-<img src="images/anarchydb-logo.jpg" style="float:right" width="40%" height="40%">
+# AnarchyDB <img src="images/anarchydb-logo.jpg" style="float:right" width="40%" height="40%">
 
 This is `AnachyDB`, the ungoverned data storage.
 
