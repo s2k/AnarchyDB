@@ -1,6 +1,8 @@
 # AnarchyDB
 
-This is `AnachyDB`, ungoverned data storage.
+![anarchydb-logo.jpg](images%2Fanarchydb-logo.jpg)
+
+This is `AnachyDB`, the ungoverned data storage.
 
 Why 'Anarchy'?
 
