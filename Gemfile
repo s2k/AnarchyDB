@@ -1,6 +1,6 @@
-source 'https://gems.rubyforge.org'
+source 'https://rubygems.org'
 
-ruby '3.2.2'
+ruby '3.3.0'
 
 gem 'amazing_print'
 gem 'sinatra'
