@@ -49,5 +49,3 @@ get '/:dbname/:storage_key' do |dbname, storage_key|
 
   File.read(file_name)
 end
-
-
