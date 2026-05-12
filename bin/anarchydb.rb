@@ -1,7 +1,6 @@
 #! env ruby
 
 require 'sinatra'
-require 'amazing_print'
 require 'digest'
 require 'random/formatter'
 
