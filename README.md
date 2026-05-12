@@ -7,7 +7,7 @@ Why 'Anarchy'?
 * There are no automated tests…
 * …or rules.
 * Only stores limited data and you need to figure out the limitation your self
-* When storing data you get a key back. Don't lose that key, as this is the only way to get back the data from the server. 
+* When storing data you get a key back. Don't lose that key, as this is the only way to get back the data from the server.
 * There is no querying whatsoever, except providing the key that was generated when storing
 
 # IMPORTANT
@@ -16,7 +16,8 @@ Why 'Anarchy'?
 
 ## Dependencies
 
-You'll need a working Ruby 3.2.2.
+You'll need a current (enough) version of Ruby.
+At the time of this commit that's Ruby 4.0.4.
 
 ## Usage
 
