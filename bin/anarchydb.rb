@@ -27,7 +27,7 @@ delete '/delete/:dbname' do|dbname|
   FileUtils.rm_r(folder_name, secure: true)
   "DB '#{dbname}' is gone now."
 rescue Errno::ENOENT => e
-  "Couldn't delete DB '#{dbname}'"
+  [404, "No such DB: '#{dbname}'"]
 end
 
 post '/new/:dbname' do |dbname|
