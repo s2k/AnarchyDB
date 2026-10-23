@@ -22,6 +22,14 @@ def path_for(dbname)
   File.join(STORAGE_DIR, dbname)
 end
 
+delete '/delete/:dbname' do|dbname|
+  folder_name = path_for(dbname)
+  FileUtils.rm_r(folder_name, secure: true)
+  "DB '#{dbname}' is gone now."
+rescue Errno::ENOENT => e
+  "Couldn't delete DB '#{dbname}'"
+end
+
 post '/new/:dbname' do |dbname|
   folder_name = path_for(dbname)
   return [400, "Already exists\n"] if File.exist?(folder_name)
